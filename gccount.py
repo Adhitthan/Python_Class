@@ -1,0 +1,12 @@
+DNA=input("Enter your DNA sequence:")
+print(DNA)
+(A)=DNA.count("a")
+(T)=DNA.count("t")
+(G)=DNA.count("g")
+(C)=DNA.count("c")
+GCpercent=((G+C)/(A+G+C+T))*100
+print("No. of A's=",+(A),'\n')
+print("No. of T's=",+(T),'\n')
+print("No. of G's=",+(G),'\n')
+print("No. of C's=",+(C),'\n')
+print("GC percentage of DNA is found to be=",+GCpercent,)
